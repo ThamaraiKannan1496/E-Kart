@@ -1,69 +1,69 @@
 let products = [
   {
-    prod_img: "../img/galaxy_a735G_gray.jpg",
+    prod_img: "img/galaxy_a735G_gray.jpg",
     prod_info: "Galaxy-A7",
     prod_priceLabel: "Price : ",
     prod_price: "21,999",
     prod_btn: "Add to Cart",
   },
   {
-    prod_img: "../img/galaxy_s21fe5G_pink.jpg",
+    prod_img: "img/galaxy_s21fe5G_pink.jpg",
     prod_info: "Galaxy-S22",
     prod_priceLabel: "Price : ",
     prod_price: "11,999",
     prod_btn: "Add to Cart",
   },
   {
-    prod_img: "../img/iqoo_neo65G_blue.jpg",
+    prod_img: "img/iqoo_neo65G_blue.jpg",
     prod_info: "IQoo Neo",
     prod_priceLabel: "Price : ",
     prod_price: "35,999",
     prod_btn: "Add to Cart",
   },
   {
-    prod_img: "../img/iqoo_z65G_blue.jpg",
+    prod_img: "img/iqoo_z65G_blue.jpg",
     prod_info: "IQoo-Z65",
     prod_priceLabel: "Price : ",
     prod_price: "45,999",
     prod_btn: "Add to Cart",
   },
   {
-    prod_img: "../img/oneplus_10pro5G_black.webp",
+    prod_img: "img/oneplus_10pro5G_black.webp",
     prod_info: "Oneplus-10Pro",
     prod_priceLabel: "Price : ",
     prod_price: "65,999",
     prod_btn: "Add to Cart",
   },
   {
-    prod_img: "../img/oneplus_nord2t5G_aqua.webp",
+    prod_img: "img/oneplus_nord2t5G_aqua.webp",
     prod_info: "Oneplus-Nord",
     prod_priceLabel: "Price : ",
     prod_price: "17,999",
     prod_btn: "Add to Cart",
   },
   {
-    prod_img: "../img/poco_m45G_yellow.webp",
+    prod_img: "img/poco_m45G_yellow.webp",
     prod_info: "Poco M45",
     prod_priceLabel: "Price : ",
     prod_price: "35,999",
     prod_btn: "Add to Cart",
   },
   {
-    prod_img: "../img/poco_x4pro5G_blue.webp",
+    prod_img: "img/poco_x4pro5G_blue.webp",
     prod_info: "Poco X4",
     prod_priceLabel: "Price : ",
     prod_price: "15,999",
     prod_btn: "Add to Cart",
   },
   {
-    prod_img: "../img/realme_narzo505G_blue.webp",
+    prod_img: "img/realme_narzo505G_blue.webp",
     prod_info: "Narzo 50",
     prod_priceLabel: "Price : ",
     prod_price: "35,999",
     prod_btn: "Add to Cart",
   },
   {
-    prod_img: "../img/redmi_note11_blue.webp",
+    prod_img: "img/redmi_note11_blue.webp",
     prod_info: "Redmi-Note-11",
     prod_priceLabel: "Price : ",
     prod_price: "18,999",
@@ -107,6 +107,4 @@ products.forEach(function (elem, ind) {
   insertCard.appendChild(columThree);
 });
 
-let addCart = function () {
-  
-};
+let addCart = function () {};
